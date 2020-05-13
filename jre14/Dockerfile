@@ -30,6 +30,7 @@ RUN apt-get update \
         mercurial \
         openssh-client \
         subversion \
+        graphviz \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GRADLE_VERSION 6.4
